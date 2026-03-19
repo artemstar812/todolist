@@ -1,0 +1,98 @@
+﻿body {
+    background: #f2d8a5;
+
+    height: 100vh;
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    height: 85vh;
+    border-radius: 8px;
+    background: #faf0de;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.add-task {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.add-task input {
+    flex: 1;
+    padding: 8px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    font-size: 14px;
+}
+
+.add-task button {
+    padding: 8px 14px;
+
+    background: #333;
+    color: white;
+
+    border-radius: 6px;
+}
+
+.task-list {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.task-item input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.task-actions button {
+    background: #333;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 7px;
+}
+
+.task-text {
+    flex: 1;
+}
