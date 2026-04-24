@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\Programming\\ToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|e:\\programming\\todolist\\todolist\\wwwroot\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|solutionrelative:todolist\\wwwroot\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|e:\\programming\\todolist\\todolist\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|solutionrelative:todolist\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|e:\\programming\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|e:\\programming\\todolist\\todolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|solutionrelative:todolist\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|e:\\programming\\todolist\\todolist\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E4ABB56-D890-68A6-58DE-65CCE86C68FC}|ToDoList\\ToDo List.csproj|solutionrelative:todolist\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "api.js",
+              "DocumentMoniker": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\api.js",
+              "RelativeDocumentMoniker": "ToDoList\\wwwroot\\api.js",
+              "ToolTip": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\api.js",
+              "RelativeToolTip": "ToDoList\\wwwroot\\api.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-21T00:19:12.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ToDoList\\wwwroot\\index.html",
+              "ToolTip": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\index.html",
+              "RelativeToolTip": "ToDoList\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-20T23:43:28.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "E:\\Programming\\ToDoList\\ToDoList\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\TodoController.cs",
+              "ToolTip": "E:\\Programming\\ToDoList\\ToDoList\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T23:33:55.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.js",
+              "DocumentMoniker": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "ToDoList\\wwwroot\\app.js",
+              "ToolTip": "E:\\Programming\\ToDoList\\ToDoList\\wwwroot\\app.js",
+              "RelativeToolTip": "ToDoList\\wwwroot\\app.js",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-20T23:16:08.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Programming\\ToDoList\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
               "ToolTip": "E:\\Programming\\ToDoList\\ToDoList\\Program.cs",
               "RelativeToolTip": "ToDoList\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T00:59:03.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T00:59:03.698Z"
             }
           ]
         }

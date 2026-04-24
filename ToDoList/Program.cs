@@ -5,8 +5,6 @@ using ToDo_List.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
@@ -28,7 +26,6 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data S
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

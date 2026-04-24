@@ -23,7 +23,7 @@ function showTaskOnList(todoItem) {
     })
 
     checkbox.addEventListener('change', () => {
-        checkbox_callback(todoItem.id)
+        checkbox_callback(todoItem.id, checkbox)
     })
 
     editBtn.addEventListener("click", () => {
@@ -33,13 +33,23 @@ function showTaskOnList(todoItem) {
     taskList.prepend(task);
 }
 
-function deleteBttn_callback(id, li) {
-    deleteTodo(id)
-    li.remove()
+async function deleteBttn_callback(id, li) {
+    try {
+        await deleteTodo(id)
+        li.remove()
+    } catch (err) {
+        console.error("Error: ", err)
+    }
 }
 
-function checkbox_callback(id) {
-    toggleTodo(id)
+async function checkbox_callback(id, checkbox) {
+    try {
+        var res = await toggleTodo(id)
+    } catch (err) {
+        console.error("Error: ", err)
+
+        checkbox.checked = !checkbox.checked
+    }
 }
 
 async function editBttn_callback(todoItem, checkbox, label) {
@@ -48,13 +58,17 @@ async function editBttn_callback(todoItem, checkbox, label) {
     if (!newTitle)
         return
 
-    await updateTodo(todoItem.id, {
-        id: todoItem.id,
-        title: newTitle,
-        isCompleted: checkbox.checked
-    })
+    try {
+        var res = await updateTodo(todoItem.id, {
+            id: todoItem.id,
+            title: newTitle,
+            isCompleted: checkbox.checked
+        })
 
-    label.textContent = newTitle;
+        label.textContent = newTitle;
+    } catch(err) {
+        console.error("Error: ", err)
+    }
 }
 
 async function addTask() {
@@ -66,10 +80,19 @@ async function addTask() {
         isCompleted: false
     }
 
-    var res = await createTodo(todo)
+    try {
+        var res = await createTodo(todo)
 
-    showTaskOnList(res);
-    input.value = "";
+        if (!res) {
+            console.error("Failed to create task")
+            return
+        }
+
+        showTaskOnList(res);
+        input.value = "";
+    } catch (err) {
+        console.error("Error: ", err)
+    }
 }
 
 button.addEventListener("click", addTask)
@@ -79,7 +102,6 @@ async function showTodos() {
 
     todos.forEach((todo) => showTaskOnList(todo))
 }
-
 
 
 showTodos()
